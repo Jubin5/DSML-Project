@@ -1,4 +1,4 @@
-# UCI Adult Dataset Classification Using Random Forest
+# UCI Adult Dataset Classification Using Gradient Boosting
 
 ## 📌 Project Overview
 This project implements a **Random Forest Classifier** to predict whether an individual earns more than **$50K per year** based on the **UCI Adult Dataset**. The dataset includes demographic and employment-related attributes extracted from the 1994 U.S. Census database.
@@ -14,20 +14,19 @@ The dataset is publicly available at the [UCI Machine Learning Repository](https
 ## 🛠️ Tech Stack
 - **Programming Language:** Python
 - **Libraries Used:** Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-- **Model Used:** Random Forest Classifier
+- **Model Used:** Gradient Boosting
 
 ## 📊 Model Training & Evaluation
-- **Training Accuracy:** **88%**
-- **Testing Accuracy:** **83%**
+- **Training Accuracy:** **88.7%**
+- **Testing Accuracy:** **88.7%**
 - **Evaluation Metrics:**
   - **Confusion Matrix**
   - **ROC Curve (AUC = 0.96)**
   - **Precision, Recall, F1-score**
 
 ## 🔍 Key Findings
-- The model shows **good generalization** but has a slight overfitting tendency.
+- The model shows **good generalization** with no overfitting tendency.
 - The **ROC curve (AUC = 0.96)** indicates strong discrimination capability.
-- The dataset contains **class imbalance**, which might impact predictions.
 
 ## 🚀 Future Work
 - Implement **deep learning models** to explore potential accuracy improvements.
