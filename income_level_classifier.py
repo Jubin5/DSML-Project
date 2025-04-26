@@ -14,7 +14,7 @@ import numpy as np
 import pickle
 
 # Load the trained model
-with open('/content/My_Model (2).pkl', 'rb') as model_file:
+with open('My_Model (2).pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
 # Define the Streamlit UI
