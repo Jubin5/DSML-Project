@@ -1,7 +1,7 @@
 # UCI Adult Dataset Classification Using Gradient Boosting
 
 ## 📌 Project Overview
-This project implements a **Random Forest Classifier** to predict whether an individual earns more than **$50K per year** based on the **UCI Adult Dataset**. The dataset includes demographic and employment-related attributes extracted from the 1994 U.S. Census database.
+This project implements a **Gradient Boosting Classifier** to predict whether an individual earns more than **$50K per year** based on the **UCI Adult Dataset**. The dataset includes demographic and employment-related attributes extracted from the 1994 U.S. Census database.
 
 ## 📂 Dataset
 The **UCI Adult Dataset** consists of **48,842** instances with **14 attributes**, including:
@@ -51,7 +51,7 @@ The dataset is publicly available at the [UCI Machine Learning Repository](https
 4. View results and visualizations in the generated output files.
 
 ## 💡 Conclusion
-The **Random Forest Classifier** provides a solid baseline for income prediction using the **UCI Adult Dataset**. With further refinements, such as **handling class imbalance, adding features, and using deep learning models**, the prediction accuracy and fairness can be improved. 🚀
+The **Gradient Boosting Classifier** provides a solid baseline for income prediction using the **UCI Adult Dataset**. With further refinements, such as **handling class imbalance, adding features, and using deep learning models**, the prediction accuracy and fairness can be improved. 🚀
 
 ---
 ### 📬 Contact
